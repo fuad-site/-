@@ -9,6 +9,9 @@ body {
 header {
     background: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
 }
 
 .container {
@@ -41,17 +44,25 @@ nav ul li a {
     color: #333;
 }
 
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
 .hero {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     background: #fff url('background-pattern.png') no-repeat center center;
     background-size: cover;
-    padding: 50px 0;
+    height: 100vh;
 }
 
 .hero-content {
-    max-width: 600px;
+    text-align: center;
 }
 
 .hero-content h1 {
@@ -68,24 +79,29 @@ nav ul li a {
     margin-bottom: 30px;
 }
 
-.btn {
-    background: #007bff;
-    color: #fff;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
+.about,
+.projects,
+.contact {
+    padding: 50px 0;
+    text-align: center;
 }
 
-.social-icons {
-    margin-top: 20px;
+.about-content,
+.contact-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
 
-.social-icons a {
+.about-text p {
+    margin: 10px 0;
+}
+
+.contact-info a {
     color: #333;
-    margin-right: 10px;
-    font-size: 20px;
+    margin: 0 10px;
+    font-size: 24px;
 }
 
 .hero-image img {
@@ -101,14 +117,13 @@ nav ul li a {
     }
 
     nav ul {
+        display: none;
         flex-direction: column;
         gap: 10px;
     }
 
-    .hero {
-        flex-direction: column;
-        text-align: center;
-        padding: 20px 0;
+    .menu-toggle {
+        display: block;
     }
 
     .hero-content h1 {
@@ -119,11 +134,8 @@ nav ul li a {
         font-size: 18px;
     }
 
-    .btn {
-        margin-top: 20px;
-    }
-
-    .social-icons {
-        justify-content: center;
+    .about-content,
+    .contact-info {
+        flex-direction: column;
     }
 }
