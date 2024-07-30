@@ -3,43 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fuad Mahmudzadə - Data Analyst</title>
+    <title>Elcan Seyidov - Data Analyst</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <header>
         <div class="container">
-            <div class="logo">Fuad</div>
+            <div class="logo">Elcan Seyidov</div>
             <nav>
-                <ul>
-                    <li><a href="#">Ana Səhifə</a></li>
-                    <li><a href="#">Əlaqə</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Education</a></li>
-                    <li><a href="#">Work</a></li>
-                    <li><a href="#">Experience</a></li>
-                    <li><a href="#">Contact</a></li>
+                <ul id="nav-list">
+                    <li><a href="#home">Ana Səhifə</a></li>
+                    <li><a href="#about">Haqqımda</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Əlaqə</a></li>
                 </ul>
+                <button class="menu-toggle" id="menu-toggle"><i class="fas fa-bars"></i></button>
             </nav>
         </div>
     </header>
-    <section class="hero">
+    <section id="home" class="hero">
         <div class="container">
             <div class="hero-content">
-                <h1>Hi There, <br> I'm <span class="highlight">Fuad Mahmudzadə</span></h1>
-                <p>I Am Into <span class="highlight">Data Analysis</span></p>
-                <button id="downloadBtn" class="btn">CV'yi Yüklə</button>
-                <div class="social-icons">
-                    <a href="#"><i class="fab fa-github"></i></a>
-                    <a href="#"><i class="fab fa-linkedin"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-telegram"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
+                <h1>Salamlar, <br> Mənim adım <span class="highlight">Elcan Seyidov</span></h1>
+                <p>Biz birlikdə <span class="highlight">STEAM</span> öyrənə bilərik</p>
+                <div class="hero-image">
+                    <img src="profile-pic.png" alt="Elcan Seyidov">
                 </div>
             </div>
-            <div class="hero-image">
-                <img src="profile-pic.png" alt="Fuad Mahmudzadə">
+        </div>
+    </section>
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Haqqımda</h2>
+            <div class="about-content">
+                <img src="profile-pic.png" alt="Elcan Seyidov">
+                <div class="about-text">
+                    <p>Yaş: 25</p>
+                    <p>Peşə: Data Analyst</p>
+                    <p>Hobbilər: Coding, Reading, Traveling</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-item">
+                <h3>Project 1</h3>
+                <p>Bu layihə haqqında məlumat...</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Əlaqə</h2>
+            <div class="contact-info">
+                <a href="https://www.instagram.com/memmedli_01_/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://web.telegram.org/k/#@Hadaf_Lyceum_BOT" target="_blank"><i class="fab fa-telegram"></i></a>
+                <p>Email: omrmmdli72@gmail.com</p>
+                <p>Telefon: +994 55 767 85 66</p>
             </div>
         </div>
     </section>
