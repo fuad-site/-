@@ -1,6 +1,8 @@
-document.getElementById('downloadBtn').addEventListener('click', function() {
-    const link = document.createElement('a');
-    link.href = 'cv/CV_of_Omar_Mammadli.pdf'; // Make sure the file name is correct
-    link.download = 'CV_of_Omar_Mammadli.pdf';
-    link.click();
+document.getElementById('menu-toggle').addEventListener('click', function() {
+    const navList = document.getElementById('nav-list');
+    if (navList.style.display === 'block') {
+        navList.style.display = 'none';
+    } else {
+        navList.style.display = 'block';
+    }
 });
