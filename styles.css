@@ -45,9 +45,9 @@ nav ul li a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #fff;
+    background: #fff url('background-pattern.png') no-repeat center center;
+    background-size: cover;
     padding: 50px 0;
-    background-image: url('background-pattern.png');
 }
 
 .hero-content {
