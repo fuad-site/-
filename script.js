@@ -6,3 +6,12 @@ document.getElementById('menu-toggle').addEventListener('click', function() {
         navList.style.display = 'block';
     }
 });
+
+document.querySelectorAll('a.nav-link').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
