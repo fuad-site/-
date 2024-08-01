@@ -1,1 +1,0 @@
-# Hörmətli Fuad Mahmudzadə.Bu sizin saytınızın açılışıdır.Arıtq yuxarıda gördüyünüz domainlə davam edəcəyik.Əgər domain ilə razılaşırsınızsa zəhmət olmsa  wp-dab + yazın.Əgər domain ilə razı deyilsinizsə,fuad-site əvəzinı mahmudzadə.github.io tipli yaxud fuad93 tipli rəqəmli ya da fuad-data və.s bu tip idealarınız wp-dan yaza bilərsiniz.Diqqətinizə görə təşəkkürlər!
